@@ -1,0 +1,21 @@
+RTB01 - Plain commit
+
+RTB02 - Plain commit
+
+RTB03 - Plain commit
+
+RTB04 - Plain commit
+
+Found an issue with RTB03:
+Checkout RTB03.
+Create a branch B031 when the head is at RTB03
+On the branch address the bug.
+Commit and TAG the WS to RTB03 (STILL ON bRANCH b031)
+
+Merge with Master
+GitBash checkout to master.
+GitExtensions --> right click BRANCH B031 --> merge branch (B031) into current branch (Master)
+
+Master now has RTB03 bug fix merged with RTB04
+
+RTB05 - Plain commit
