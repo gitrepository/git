@@ -1,26 +1,27 @@
 git clone git_ssh_url		: clones the project from github web site
-git status 					: status check 
-git tag						: tag list
+git status 			: status check 
+git tag				: tag list
 
-git branch					: branch list
-git branch new_bn			: Creates a new branch
-git branch -d bn			: Deletes the branch bn
+git branch			: branch list
+git branch new_bn		: Creates a new branch
+git branch -d bn		: Deletes the branch bn
 git branch new_bn head_id	: Created a new branch and associated the changes with head_id
 
-git checkout bn/tn			: change to bn (branchName) / tn (tagName)
-git checkout -b bn			: create a branch at the current location and move to the branch
+git checkout bn/tn		: change to bn (branchName) / tn (tagName)
+git checkout -b bn		: create a branch at the current location and move to the branch
 
-git tag -help 				: command window help
-git tag --help				: browser window help
+git tag -help 			: command window help
+git tag --help			: browser window help
 
-git add -A 					: Add all changes + untracked files
+git add <dir>/ 			: Add all files under <dir>
+git add -A 			: Add all changes + untracked files
 git commit -am "msg"		: Commit All + Message with commit
-git tag RTB					: Create a tag with tag name RTB
+git tag RTB			: Create a tag with tag name RTB
 
 git push origin bn/tn		: push to origin (remote repos) the specified bn/tn
-git push --all				: Push all branches
-git push --tags				: Push all tags
+git push --all			: Push all branches
+git push --tags			: Push all tags
 
-git fetch --all				: Fetch all remote
-git reset --hard			: Resets the index and working tree. 
-							  Any changes to tracked files in the working tree since <commit> are discarded.
+git fetch --all			: Fetch all remote
+git reset --hard		: Resets the index and working tree. 
+				  Any changes to tracked files in the working tree since <commit> are discarded.
